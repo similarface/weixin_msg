@@ -1,3 +1,12 @@
-#Step0:
+#Step0:安装必须包
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 #Step1： 填充配置文件 config.ini
+?????的都需要填充
+
+#Step2: 运行服务
+进入到该项目中
+
+nohup python3.6 main.py runserver --host 0.0.0.0 --port 8080 &
+
+（需要在邮件中，进行微信扫码）。
