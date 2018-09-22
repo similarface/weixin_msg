@@ -1,0 +1,19 @@
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python:
+*.py[cod]
+*.so
+*.egg
+.idea
+*.egg-info
+.DS_Store
+# My configurations:
+# db.ini
+# deploy_key_rsa
+config.real.ini
+venv
+__pycache__
+wxpy.pkl
